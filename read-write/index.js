@@ -1,3 +1,3 @@
-import functions from './functions.mjs';
+import modules from "./save.js"
 
-console.log(functions.saveData())
+console.log(modules.saveData('./json/users.json', 'test', true))
