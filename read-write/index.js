@@ -1,3 +1,3 @@
-import modules from "./save.js"
+const saveData = require('./save.js')
 
-console.log(modules.saveData('./json/users.json', 'test', true))
+console.log(saveData('./json/users.json', 'test', true))
